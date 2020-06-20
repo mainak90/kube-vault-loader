@@ -1,5 +1,0 @@
-{
-      "url": "********",
-      "auth_token": "****",
-      "ctx": "kv/" #ctx can be v1 or v2 secrets for now, if you have a custom Vault context, please add the same#
-}
