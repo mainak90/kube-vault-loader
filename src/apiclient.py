@@ -4,8 +4,10 @@ import logging
 from kubernetes.client import ApiClient
 
 
+# noinspection PyTypeChecker
 class ApiClient(object):
-    def apiclient(self):
+    @property
+    def apiclient(self) -> object:
         if os.path.exists('/var/run/secrets/kubernetes.io/serviceaccount/token'):
             with open('/var/run/secrets/kubernetes.io/serviceaccount/token') as file:
                 token = file.read()
@@ -22,8 +24,9 @@ class ApiClient(object):
             return apiclient
         elif os.path.exists(os.path.expanduser("~") + '/.kube/config'):
             config.verify_ssl = False
-            k8sclient = config.new_client_from_config()  # type: ApiClient
-            logging.info('Found kubeconfig file on ' + os.path.expanduser("~") + '/.kube/config')
+            config.load_kube_config()
+            k8sclient = client  # type: ApiClient
+            logging.info('Found kubeconfig file on {configpath}'.format(configpath=os.path.expanduser("~") + '/.kube/config'))
             return k8sclient
         else:
             raise Exception('Unauthorized: No kubeconfig file or Bearer token detected so cannot instantiate client instance')

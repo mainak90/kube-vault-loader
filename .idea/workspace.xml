@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11673aa0-b88a-4666-a535-067d8c13d660" name="Default Changelist" comment="" />
+    <list default="true" id="11673aa0-b88a-4666-a535-067d8c13d660" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sync.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/template.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/apiclienttest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apiclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/create.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hvac-test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/hvac-test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hvclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hvclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapping.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="kube-vault-loader" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,6 +41,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -30,8 +50,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="Unittests in apiclienttest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for apiclienttest.ApiClientTest">
+    <configuration name="Unittests for apiclienttest.ApiClientTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="kube-vault-loader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;apiclienttest.ApiClientTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in apiclienttest.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="hvac-openshift-feeder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,7 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in apiclienttest.py" />
+        <item itemvalue="Python tests.Unittests for apiclienttest.ApiClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -69,25 +103,42 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="320" y="105" key="#Inspections/0.23.1440.827@0.23.1440.827" timestamp="1587637377352" />
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1587644805884">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="320" y="105" key="#Scopes" timestamp="1587939357916">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="320" y="105" key="#Scopes/0.23.1440.828@0.23.1440.828" timestamp="1587939357916" />
+    <state width="1396" height="212" key="GridCell.Tab.0.bottom" timestamp="1587939528815">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1587644805884" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1587644805882">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1396" height="212" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1587939528815" />
+    <state width="1396" height="212" key="GridCell.Tab.0.center" timestamp="1587939528814">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1587644805882" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1587644805881">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1396" height="212" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1587939528814" />
+    <state width="1396" height="212" key="GridCell.Tab.0.left" timestamp="1587939528813">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1587644805881" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1587644805883">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1396" height="212" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1587939528813" />
+    <state width="1396" height="212" key="GridCell.Tab.0.right" timestamp="1587939528814">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1587644805883" />
-    <state x="221" y="77" key="SettingsEditor" timestamp="1587637325803">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1396" height="212" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1587939528814" />
+    <state x="221" y="77" key="SettingsEditor" timestamp="1592596584195">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="221" y="77" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1587637325803" />
+    <state x="221" y="77" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1592596584195" />
+    <state x="374" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1587939543790">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="374" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1587939543790" />
+    <state x="385" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1592656144081">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="385" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1592656144081" />
   </component>
 </project>
