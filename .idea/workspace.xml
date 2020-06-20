@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11673aa0-b88a-4666-a535-067d8c13d660" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sync.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/template.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/apiclienttest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apiclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiclient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/create.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hvac-test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/hvac-test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hvclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hvclient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
